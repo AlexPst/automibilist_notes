@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Фон иконки приложения — фирменный синий (как seed-цвет темы). -->
+    <color name="ic_launcher_background">#1E6FD9</color>
+    <!-- Фон экрана запуска — как фон приложения в светлой теме. -->
+    <color name="splash_background">#F9F9FF</color>
+</resources>

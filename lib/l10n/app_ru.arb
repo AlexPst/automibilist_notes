@@ -1,0 +1,618 @@
+{
+  "@@locale": "ru",
+  "appTitle": "Дневник автомобилиста",
+  "navHome": "Главная",
+  "navFuel": "Заправки",
+  "navExpenses": "Расходы",
+  "navService": "ТО",
+  "navStats": "Статистика",
+  "homeTitle": "Главная",
+  "fuelTitle": "Заправки",
+  "expensesTitle": "Расходы",
+  "serviceTitle": "ТО и напоминания",
+  "statsTitle": "Статистика",
+  "placeholderSoon": "Раздел появится в следующих версиях",
+  "cancel": "Отмена",
+  "save": "Сохранить",
+  "edit": "Изменить",
+  "delete": "Удалить",
+  "carsTitle": "Автомобили",
+  "carsManage": "Управление автомобилями",
+  "carSelect": "Выбрать автомобиль",
+  "carAdd": "Добавить автомобиль",
+  "carNewTitle": "Новый автомобиль",
+  "carEditTitle": "Редактирование",
+  "carNotFound": "Автомобиль не найден",
+  "carActive": "Активный",
+  "carDeleteTitle": "Удалить автомобиль?",
+  "carDeleteMessage": "«{name}» и все его записи будут удалены без возможности восстановления.",
+  "@carDeleteMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "carSaveError": "Не удалось сохранить автомобиль",
+  "onboardingTitle": "Добавьте первый автомобиль",
+  "onboardingText": "Укажите марку, модель и пробег — и можно вести учёт заправок, расходов и ТО.",
+  "carBrand": "Марка",
+  "carModel": "Модель",
+  "carYear": "Год выпуска",
+  "carPlate": "Госномер",
+  "carFuelType": "Тип топлива",
+  "carTankVolume": "Объём бака, л",
+  "carInitialMileage": "Начальный пробег, км",
+  "carInitialMileageValue": "Начальный пробег: {value} км",
+  "@carInitialMileageValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "carTankVolumeValue": "Бак {value} л",
+  "@carTankVolumeValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "carYearValue": "{year} г.",
+  "@carYearValue": {
+    "placeholders": {
+      "year": {
+        "type": "String"
+      }
+    }
+  },
+  "photoFromCamera": "Сделать снимок",
+  "photoFromGallery": "Выбрать из галереи",
+  "photoRemove": "Удалить фото",
+  "photoPickError": "Не удалось получить фото",
+  "photoHint": "Нажмите, чтобы добавить фото",
+  "errorRequired": "Обязательное поле",
+  "errorTooLong": "Не длиннее {max} символов",
+  "@errorTooLong": {
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "errorNotNumber": "Введите число",
+  "errorRange": "Допустимо от {min} до {max}",
+  "@errorRange": {
+    "placeholders": {
+      "min": {
+        "type": "String"
+      },
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "fuelAi92": "АИ-92",
+  "fuelAi95": "АИ-95",
+  "fuelAi98": "АИ-98",
+  "fuelAi100": "АИ-100",
+  "fuelDiesel": "Дизель",
+  "fuelLpg": "Газ (пропан)",
+  "fuelCng": "Метан",
+  "fuelEmptyTitle": "Пока нет заправок",
+  "fuelEmptyText": "Нажмите «+», чтобы добавить первую заправку",
+  "fuelAdd": "Добавить заправку",
+  "fuelNewTitle": "Новая заправка",
+  "fuelEditTitle": "Заправка",
+  "fuelNotFound": "Запись не найдена",
+  "fuelSaveError": "Не удалось сохранить заправку",
+  "fuelDate": "Дата",
+  "fuelMileage": "Пробег, км",
+  "fuelLiters": "Литры",
+  "fuelPrice": "Цена за литр, {currency}",
+  "fuelTotal": "Сумма, {currency}",
+  "fuelAutoCalcHint": "Заполните любые два поля — третье посчитается само",
+  "fuelFullTank": "Полный бак",
+  "fuelFullTankHint": "Заправились до полного — нужно для расчёта расхода",
+  "fuelStation": "АЗС",
+  "fuelComment": "Комментарий",
+  "fuelDeleteTitle": "Удалить заправку?",
+  "fuelDeleteMessage": "Запись будет удалена без возможности восстановления.",
+  "fuelPartial": "Неполный бак",
+  "fuelAvgConsumption": "Средний расход",
+  "fuelAvgConsumptionEmpty": "Появится после двух заправок до полного бака",
+  "consumptionValue": "{value} {unit}",
+  "@consumptionValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "mileageValue": "{value} км",
+  "@mileageValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "fuelMileageMinHint": "Не меньше {value} км",
+  "@fuelMileageMinHint": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "errorMileageBelowInitial": "Меньше начального пробега авто ({value} км)",
+  "@errorMileageBelowInitial": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "errorMileageBelowPrevious": "Меньше, чем в более ранней записи ({value} км)",
+  "@errorMileageBelowPrevious": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "errorMileageAboveNext": "Больше, чем в более поздней записи ({value} км)",
+  "@errorMileageAboveNext": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "errorPositive": "Должно быть больше нуля",
+  "fuelLitersLine": "{liters} л × {price}",
+  "@fuelLitersLine": {
+    "placeholders": {
+      "liters": {
+        "type": "String"
+      },
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "expensesEmptyTitle": "Пока нет расходов",
+  "expensesEmptyText": "Нажмите «+», чтобы добавить мойку, ремонт, страховку и другие траты",
+  "expensesNothingFound": "Нет расходов по выбранному фильтру",
+  "expensesResetFilter": "Сбросить фильтр",
+  "expenseAdd": "Добавить расход",
+  "expenseNewTitle": "Новый расход",
+  "expenseEditTitle": "Расход",
+  "expenseNotFound": "Запись не найдена",
+  "expenseSaveError": "Не удалось сохранить расход",
+  "expenseDeleteTitle": "Удалить расход?",
+  "expenseDeleteMessage": "Запись будет удалена без возможности восстановления.",
+  "expenseDate": "Дата",
+  "expenseCategory": "Категория",
+  "expenseAmount": "Сумма, {currency}",
+  "expenseMileage": "Пробег, км",
+  "expenseComment": "Комментарий",
+  "expensesTotal": "Итого",
+  "expensesCount": "{count, plural, one{{count} запись} few{{count} записи} many{{count} записей} other{{count} записи}}",
+  "@expensesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "periodAll": "Всё время",
+  "periodMonth": "Этот месяц",
+  "periodYear": "Этот год",
+  "periodCustom": "Период…",
+  "periodRange": "{from} – {to}",
+  "@periodRange": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "categoryWash": "Мойка",
+  "categoryRepair": "Ремонт",
+  "categoryParts": "Запчасти",
+  "categoryInsurance": "Страховка",
+  "categoryFines": "Штрафы",
+  "categoryParking": "Парковка",
+  "categoryTax": "Налог",
+  "categoryOther": "Другое",
+  "serviceTabReminders": "Напоминания",
+  "serviceTabHistory": "История",
+  "remindersEmptyTitle": "Нет напоминаний",
+  "remindersEmptyText": "Добавьте напоминание о замене масла, ОСАГО или смене резины — приложение подскажет, когда пора",
+  "historyEmptyTitle": "Нет записей ТО",
+  "historyEmptyText": "Записывайте сюда выполненные работы: замену масла, фильтров, ремонт",
+  "reminderAdd": "Добавить напоминание",
+  "reminderCustom": "Своё напоминание",
+  "reminderNewTitle": "Новое напоминание",
+  "reminderEditTitle": "Напоминание",
+  "reminderNotFound": "Напоминание не найдено",
+  "reminderTitle": "Вид работ",
+  "reminderIntervalKm": "Каждые, км",
+  "reminderIntervalMonths": "Каждые, мес.",
+  "reminderIntervalHint": "Заполните пробег, срок или оба — сработает то, что наступит раньше",
+  "reminderLastDone": "Последний раз — дата",
+  "reminderLastDoneMileage": "Последний раз — пробег, км",
+  "reminderAdvanceDays": "Предупредить за, дней",
+  "reminderAdvanceKm": "Предупредить за, км",
+  "reminderNextDue": "Следующий срок: {due}",
+  "@reminderNextDue": {
+    "placeholders": {
+      "due": {
+        "type": "String"
+      }
+    }
+  },
+  "reminderDeleteTitle": "Удалить напоминание?",
+  "reminderDeleteMessage": "Записи ТО останутся в истории.",
+  "reminderDone": "Выполнено",
+  "reminderSaveError": "Не удалось сохранить напоминание",
+  "reminderEveryKm": "каждые {km} км",
+  "@reminderEveryKm": {
+    "placeholders": {
+      "km": {
+        "type": "String"
+      }
+    }
+  },
+  "reminderEveryMonths": "каждые {months} мес.",
+  "@reminderEveryMonths": {
+    "placeholders": {
+      "months": {
+        "type": "String"
+      }
+    }
+  },
+  "reminderOr": " или ",
+  "errorIntervalRequired": "Укажите интервал в км или месяцах",
+  "errorMileageForKm": "Нужен для интервала по пробегу",
+  "dueInDays": "через {count, plural, one{{count} день} few{{count} дня} many{{count} дней} other{{count} дня}}",
+  "@dueInDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dueToday": "сегодня",
+  "overdueDays": "просрочено на {count, plural, one{{count} день} few{{count} дня} many{{count} дней} other{{count} дня}}",
+  "@overdueDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dueInKm": "через {km} км",
+  "@dueInKm": {
+    "placeholders": {
+      "km": {
+        "type": "String"
+      }
+    }
+  },
+  "dueNowKm": "пора",
+  "overdueKm": "просрочено на {km} км",
+  "@overdueKm": {
+    "placeholders": {
+      "km": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationChannelName": "Напоминания",
+  "notificationChannelDescription": "Сроки ТО, страховки и смены резины",
+  "notifSoonTitle": "Скоро: {title}",
+  "@notifSoonTitle": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "notifDueTitle": "Сегодня срок: {title}",
+  "@notifDueTitle": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "notifMileageDueTitle": "Пора: {title}",
+  "@notifMileageDueTitle": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "notifDateBody": "{car} · срок {date}",
+  "@notifDateBody": {
+    "placeholders": {
+      "car": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "notifMileageBody": "{car} · срок {due} км, сейчас {current} км",
+  "@notifMileageBody": {
+    "placeholders": {
+      "car": {
+        "type": "String"
+      },
+      "due": {
+        "type": "String"
+      },
+      "current": {
+        "type": "String"
+      }
+    }
+  },
+  "notifTestTitle": "Проверка уведомлений",
+  "notifTestBody": "Если вы видите это сообщение — уведомления работают",
+  "notifTestMenu": "Тестовое уведомление через 1 минуту",
+  "notifTestScheduled": "Уведомление придёт примерно через минуту",
+  "mileageAlertSnack": "Подходит срок: {titles}",
+  "@mileageAlertSnack": {
+    "placeholders": {
+      "titles": {
+        "type": "String"
+      }
+    }
+  },
+  "open": "Открыть",
+  "serviceRecordAdd": "Добавить запись ТО",
+  "serviceRecordNewTitle": "Новая запись ТО",
+  "serviceRecordEditTitle": "Запись ТО",
+  "serviceRecordNotFound": "Запись не найдена",
+  "serviceRecordReminder": "Напоминание",
+  "serviceRecordNoReminder": "Без напоминания",
+  "serviceRecordReminderHint": "Следующий срок напоминания посчитается от этой записи",
+  "serviceRecordTitle": "Вид работ",
+  "serviceRecordDate": "Дата",
+  "serviceRecordMileage": "Пробег, км",
+  "serviceRecordCost": "Стоимость, {currency}",
+  "serviceRecordStation": "СТО",
+  "serviceRecordComment": "Комментарий",
+  "serviceRecordDeleteTitle": "Удалить запись ТО?",
+  "serviceRecordDeleteMessage": "Запись будет удалена без возможности восстановления. Срок напоминания не изменится.",
+  "serviceRecordSaveError": "Не удалось сохранить запись",
+  "currentMileageHint": "Текущий пробег: {value} км",
+  "@currentMileageHint": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "templateOil": "Замена масла",
+  "templateAirFilter": "Воздушный фильтр",
+  "templateCabinFilter": "Салонный фильтр",
+  "templateFuelFilter": "Топливный фильтр",
+  "templateOsago": "ОСАГО",
+  "templateInspection": "Техосмотр",
+  "templateSummerTyres": "Летняя резина",
+  "templateWinterTyres": "Зимняя резина",
+  "loading": "Загрузка…",
+  "homeMileage": "Пробег",
+  "homeAvgConsumption": "Средний расход",
+  "homeMonthSpending": "Расходы за {month}",
+  "@homeMonthSpending": {
+    "placeholders": {
+      "month": {
+        "type": "String"
+      }
+    }
+  },
+  "homeFuel": "Топливо",
+  "homeService": "ТО",
+  "homeOtherExpenses": "Прочие расходы",
+  "homeUpcoming": "Ближайшие напоминания",
+  "homeNoReminders": "Напоминаний пока нет",
+  "homeAllReminders": "Все напоминания",
+  "noValue": "—",
+  "statsPeriodMonth": "Месяц",
+  "statsPeriodYear": "Год",
+  "statsPeriodAll": "Всё время",
+  "statsTotal": "Всего потрачено",
+  "statsDistance": "Пробег за период",
+  "statsCostPerKm": "Стоимость 1 км",
+  "statsFuelCostPerKm": "из них топливо {value}",
+  "@statsFuelCostPerKm": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "costPerKmValue": "{value}/км",
+  "@costPerKmValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "statsByCategory": "По категориям",
+  "statsByMonth": "По месяцам",
+  "statsConsumption": "Расход топлива, {unit}",
+  "statsAvgForPeriod": "Средний за период: {value}",
+  "@statsAvgForPeriod": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "statsConsumptionEmpty": "Появится после двух заправок до полного бака",
+  "statsEmptyTitle": "Нет данных за период",
+  "statsEmptyText": "Добавьте заправки или расходы — здесь появятся графики",
+  "statsCatFuel": "Топливо",
+  "statsCatService": "ТО",
+  "statsCatRepair": "Ремонт и запчасти",
+  "statsCatInsurance": "Страховка",
+  "statsCatTax": "Налог",
+  "statsCatFines": "Штрафы",
+  "statsCatWash": "Мойка",
+  "statsCatOther": "Парковка и другое",
+  "unitThousandRub": "тыс. {currency}",
+  "unitRub": "{currency}",
+  "unitL100Km": "л/100 км",
+  "unitKmPerL": "км/л",
+  "@statsConsumption": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "@fuelPrice": {
+    "placeholders": {
+      "currency": {
+        "type": "String"
+      }
+    }
+  },
+  "@fuelTotal": {
+    "placeholders": {
+      "currency": {
+        "type": "String"
+      }
+    }
+  },
+  "@expenseAmount": {
+    "placeholders": {
+      "currency": {
+        "type": "String"
+      }
+    }
+  },
+  "@serviceRecordCost": {
+    "placeholders": {
+      "currency": {
+        "type": "String"
+      }
+    }
+  },
+  "@unitThousandRub": {
+    "placeholders": {
+      "currency": {
+        "type": "String"
+      }
+    }
+  },
+  "@unitRub": {
+    "placeholders": {
+      "currency": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsTitle": "Настройки",
+  "settingsAppearance": "Оформление",
+  "settingsTheme": "Тема",
+  "themeSystem": "Системная",
+  "themeLight": "Светлая",
+  "themeDark": "Тёмная",
+  "settingsUnits": "Единицы",
+  "settingsCurrency": "Валюта",
+  "settingsCurrencyHint": "Меняется только знак — суммы не пересчитываются",
+  "currencyRub": "Российский рубль",
+  "currencyByn": "Белорусский рубль",
+  "currencyKzt": "Казахстанский тенге",
+  "currencyUsd": "Доллар США",
+  "currencyEur": "Евро",
+  "settingsConsumption": "Расход топлива",
+  "settingsData": "Данные",
+  "backupCreate": "Создать резервную копию",
+  "backupCreateHint": "Все автомобили, записи и фото в одном файле",
+  "backupRestore": "Восстановить из копии",
+  "backupRestoreHint": "Заменит текущие данные",
+  "csvExport": "Отчёт в CSV",
+  "csvExportHint": "Все записи активного автомобиля — для Excel",
+  "fileSave": "Сохранить в файл",
+  "fileShare": "Отправить",
+  "fileSaved": "Файл сохранён",
+  "fileError": "Не удалось сохранить файл",
+  "backupRestoreTitle": "Восстановить данные?",
+  "backupRestoreMessage": "Копия от {date}:\n• автомобилей — {cars}\n• заправок — {fuel}\n• расходов — {expenses}\n• напоминаний — {reminders}\n• записей ТО — {records}\n\nТекущие данные будут заменены.",
+  "@backupRestoreMessage": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "cars": {
+        "type": "int"
+      },
+      "fuel": {
+        "type": "int"
+      },
+      "expenses": {
+        "type": "int"
+      },
+      "reminders": {
+        "type": "int"
+      },
+      "records": {
+        "type": "int"
+      }
+    }
+  },
+  "backupRestoreConfirm": "Восстановить",
+  "backupRestored": "Данные восстановлены",
+  "backupInvalid": "Это не резервная копия «Дневника автомобилиста» или файл повреждён",
+  "backupNewer": "Копия создана более новой версией приложения — обновите приложение",
+  "csvDate": "Дата",
+  "csvType": "Тип",
+  "csvCategory": "Категория / вид работ",
+  "csvAmount": "Сумма, {currency}",
+  "@csvAmount": {
+    "placeholders": {
+      "currency": {
+        "type": "String"
+      }
+    }
+  },
+  "csvMileage": "Пробег, км",
+  "csvLiters": "Литры",
+  "csvPrice": "Цена за литр, {currency}",
+  "@csvPrice": {
+    "placeholders": {
+      "currency": {
+        "type": "String"
+      }
+    }
+  },
+  "csvFullTank": "Полный бак",
+  "csvPlace": "АЗС / СТО",
+  "csvComment": "Комментарий",
+  "csvTypeFuel": "Заправка",
+  "csvTypeExpense": "Расход",
+  "csvTypeService": "ТО",
+  "csvYes": "да",
+  "csvNo": "нет",
+  "onboardingRestore": "Восстановить из резервной копии",
+  "settingsPrivacy": "Конфиденциальность",
+  "settingsAnalytics": "Анонимная статистика",
+  "settingsAnalyticsHint": "Отчёты о сбоях и о том, какими разделами пользуются. Ваши записи, суммы и пробег не передаются."
+}
